@@ -1,0 +1,87 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220402_211531
+====================================================================================================
+
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |               Start device detection               |
+1004  |Info:    ------------------------------------------------------
+1005  |Info:    Initializing HID interfaces: Success
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |             Detecting I2C interfaces               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:9BC8 Subsystem: 1462:7D22
+1007  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:9BC8 Subsystem: 1462:7D22
+1007  |Info:    Registering I2C interface: /dev/i2c-8 Device 8086:9BC8 Subsystem: 1462:7D22
+1007  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:9BC8 Subsystem: 1462:7D22
+1007  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:9BC8 Subsystem: 1462:7D22
+1008  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:9BC8 Subsystem: 1462:7D22
+1008  |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:9BC8 Subsystem: 1462:7D22
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting I2C devices                |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting HID devices                |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |              Detecting other devices               |
+1008  |Info:    ------------------------------------------------------
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |                Detection completed                 |
+1011  |Info:    ------------------------------------------------------
+1011  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+1228  |Info:    Loading plugins
+4841  |Info:    ------------------------------------------------------
+4841  |Info:    |               Start device detection               |
+4841  |Info:    ------------------------------------------------------
+4841  |Info:    Initializing HID interfaces: Success
+4843  |Info:    ------------------------------------------------------
+4843  |Info:    |             Detecting I2C interfaces               |
+4843  |Info:    ------------------------------------------------------
+4844  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    Registering I2C interface: /dev/i2c-8 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:9BC8 Subsystem: 1462:7D22
+4844  |Info:    ------------------------------------------------------
+4844  |Info:    |               Detecting I2C devices                |
+4844  |Info:    ------------------------------------------------------
+4844  |Info:    ------------------------------------------------------
+4844  |Info:    |               Detecting HID devices                |
+4844  |Info:    ------------------------------------------------------
+4844  |Info:    ------------------------------------------------------
+4844  |Info:    |              Detecting other devices               |
+4844  |Info:    ------------------------------------------------------
+4845  |Info:    ------------------------------------------------------
+4845  |Info:    |                Detection completed                 |
+4845  |Info:    ------------------------------------------------------
+4845  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+103844|Info:    ------------------------------------------------------
+103844|Info:    |               Start device detection               |
+103844|Info:    ------------------------------------------------------
+103844|Info:    Initializing HID interfaces: Success
+103846|Info:    ------------------------------------------------------
+103846|Info:    |             Detecting I2C interfaces               |
+103846|Info:    ------------------------------------------------------
+103846|Info:    Registering I2C interface: /dev/i2c-3 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    Registering I2C interface: /dev/i2c-1 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    Registering I2C interface: /dev/i2c-8 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    Registering I2C interface: /dev/i2c-4 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    Registering I2C interface: /dev/i2c-2 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    Registering I2C interface: /dev/i2c-7 Device 8086:9BC8 Subsystem: 1462:7D22
+103846|Info:    ------------------------------------------------------
+103846|Info:    |               Detecting I2C devices                |
+103846|Info:    ------------------------------------------------------
+103846|Info:    ------------------------------------------------------
+103846|Info:    |               Detecting HID devices                |
+103846|Info:    ------------------------------------------------------
+103846|Info:    ------------------------------------------------------
+103846|Info:    |              Detecting other devices               |
+103846|Info:    ------------------------------------------------------
+103847|Info:    ------------------------------------------------------
+103847|Info:    |                Detection completed                 |
+103847|Info:    ------------------------------------------------------
+103847|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

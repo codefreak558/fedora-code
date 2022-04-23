@@ -1,0 +1,27 @@
+(14:27:29) INFO:    [Legendary]:       Location: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary
+(14:27:29) INFO:    [Gog]:             Location: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/gogdl
+(14:27:29) INFO:    [Backend]:         
+  Heroic Version: 2.2.6 Oden
+  Legendary Version:  0.20.25 Our Benefactors
+  OS: Fedora Linux KERNEL: 5.16.18-200.fc35.x86_64 ARCH: x64
+  CPU: Intel Core™ i3-10100 @3.6 GOVERNOR: powersave
+  RAM: Total: 16.6 GB Available: 14.4 GB
+  GRAPHICS: GPU0: CometLake-S GT2 [UHD Graphics 630]  VRAM: 256MB DRIVER:  
+  PROTOCOL: wayland
+  
+(14:27:29) INFO:    [Backend]:         User Not Found, removing it from Store
+(14:27:29) WARNING: [Backend]:         Protocol already registered.
+(14:27:33) INFO:    [DXVKInstaller]:   Updating vkd3d to: vkd3d-proton-2.6
+(14:27:34) INFO:    [Backend]:         checking for heroic updates
+(14:27:41) INFO:    [DXVKInstaller]:   Updating dxvk to: dxvk-1.10.1
+(14:28:02) INFO:    [DXVKInstaller]:   downloaded vkd3d
+(14:28:02) INFO:    [DXVKInstaller]:   extracting vkd3d
+(14:28:02) ERROR:   [DXVKInstaller]:   Extraction of vkd3d failed with: Error: Command failed: tar -I zstd -xvf /home/codefreak/.config/heroic/tools/vkd3d/vkd3d-proton-2.6.tar.zst -C /home/codefreak/.config/heroic/tools/vkd3d
+tar (child): zstd: Cannot exec: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+
+(14:28:15) INFO:    [DXVKInstaller]:   downloaded dxvk
+(14:28:15) INFO:    [DXVKInstaller]:   extracting dxvk
+(14:28:15) INFO:    [DXVKInstaller]:   extracting dxvk updated!
